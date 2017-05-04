@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yxy.dao.UserDao" >
+  <insert id="addXxx" parameterType="com.yxy.bean.User">
+  	insert into myUser(userName,password,age) values (#{userName},#{password},#{age})
+  </insert>
+</mapper>
